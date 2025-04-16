@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>E-Greeting Card</title>
-  <link rel="stylesheet" href="egreeting.css"> <!-- Connect CSS -->
+  <link rel="stylesheet" href="egreeting.css">
 </head>
 <body>
 
-  <!-- Greeting Card Structure -->
   <div class="card-container" onclick="openCard()">
-    <div class="card">
-      <div class="front">Click to Open</div>
+    <div class="card" id="card">
+      <div class="front">
+        <h2>Click to Open</h2>
+      </div>
       <div class="inside">
         <p id="custom-message">Happy Birthday, Alex!</p>
-        <img src="images/card-01-card.jpg" id="custom-image" alt="Custom Image">
+        <img src="/images/card-01-card.jpg" id="custom-image" alt="Custom Image">
       </div>
     </div>
   </div>
 
-  <script src="egreeting.js"></script> <!-- Connect JS -->
+  <script src="egreeting.js"></script>
+
 </body>
 </html>
